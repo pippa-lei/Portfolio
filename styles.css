@@ -11,6 +11,13 @@ header h1 {
     color: #333;
     margin: 10px 0;
 }
+header {
+    background: url('https://raw.githubusercontent.com/pippa-lei/Portfolio/main/images-files-website/gradient.jpg') no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;  /* Ensures the header covers the full width */
+    height: 150px;  /* Set a height for the header */
+    color: #fff;  /* Adjust text color for visibility if necessary */
+}
 
 .navbar {
     display: flex;
