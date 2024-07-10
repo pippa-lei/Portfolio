@@ -22,11 +22,21 @@ header h1 {
     margin: 10px 0;
 }
 header {
-    background: url('images-files-website/gradient.jpg') no-repeat center center fixed;
+    background-color: #F0EBDA; /* Fallback or underlying color */
+    background-image: url('images-files-website/gradient.jpg'); /* Path to your gradient image */
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
-    width: 100%;  /* Ensures the header covers the full width */
-    height: 150px;  /* Set a height for the header */
-    color: #fff;  /* Adjust text color for visibility if necessary */
+    width: 100%; /* Ensures the header covers the full width */
+    height: 150px; /* Adjust this value based on your specific design needs */
+    color: #fff; /* Set the text color to white or any color that suits your design */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
 }
 
 .navbar {
