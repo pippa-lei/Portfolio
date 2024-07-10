@@ -12,7 +12,7 @@ header h1 {
     margin: 10px 0;
 }
 header {
-    background: URL('images-files-website/gradient.jpg') no-repeat center center fixed;
+    background: url('images-files-website/gradient.jpg') no-repeat center center fixed;
     background-size: cover;
     width: 100%;  /* Ensures the header covers the full width */
     height: 150px;  /* Set a height for the header */
