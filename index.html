@@ -1,47 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pippa's Design Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <div id="logo">P</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="header-content">
-            <h1>PIPPA</h1>
-            <p>Experiences with visual design and marketing strategies to help promote your product</p>
-        </div>
-    </header>
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
 
-    <main>
-        <section id="feature-projects">
-            <h2>Feature Projects</h2>
-            <div class="projects">
-                <!-- Project 1 -->
-                <div class="project">
-                    <img src="rhino-museum.jpg" alt="Rhino Museum">
-                    <div class="project-info">
-                        <h3>Rhino Museum</h3>
-                        <p>Museum Concept, Graphic Design, Illustration</p>
-                    </div>
-                </div>
-                <!-- Other projects here -->
-            </div>
-        </section>
-    </main>
+header {
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
 
-    <footer>
-        <p>© 2024 Yijia (Pippa). All rights reserved.</p>
-    </footer>
-</body>
-</html>
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background: #333;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+    font-size: 24px;
+}
+
+.header-content {
+    padding: 40px 20px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project {
+    width: 22%;
+    margin: 10px;
+    box-shadow: 0 0 8px #ccc;
+}
+
+.project img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
