@@ -3,20 +3,9 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
 header {
     background-color: #F0EBDA; /* Beige background for the header */
-}
-
-footer {
-    background-color: #333333; /* Dark gray background for the footer */
-}
-
-div.section {
-    background-color: #445C74; /* Dark blue for a specific section */
-}
-
-header {
-    background-color: #F0EBDA; /* Fallback or underlying color */
     background-image: url('images-files-website/gradient.jpg'); /* Path to your gradient image */
     background-repeat: no-repeat;
     background-position: center center;
