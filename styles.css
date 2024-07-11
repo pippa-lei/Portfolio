@@ -15,12 +15,6 @@ div.section {
     background-color: #445C74; /* Dark blue for a specific section */
 }
 
-header h1 {
-    font-family: 'Limelight', cursive; /* Applying Limelight font */
-    font-size: 48px;
-    color: #333;
-    margin: 10px 0;
-}
 header {
     background-color: #F0EBDA; /* Fallback or underlying color */
     background-image: url('images-files-website/gradient.jpg'); /* Path to your gradient image */
