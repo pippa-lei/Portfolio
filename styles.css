@@ -59,11 +59,6 @@ header {
     color: #5b5b5f; /* Dark gray for the logo */
 }
 
-.header-content {
-    text-align: center;
-    padding: 40px;
-}
-
 header h1 {
     font-size: 48px;
     color: #333;
