@@ -6,7 +6,7 @@ body, html {
 }
 
 header {
-    background: url('path/to/your/gradient-image.jpg') no-repeat center center fixed;
+    background: url('images-files-website/gradient.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #445C74; /* Text color in header */
     width: 100%;
@@ -41,7 +41,7 @@ header p {
 
 .navbar a {
     text-decoration: none;
-    color: #fff; /* White text color for links */
+    color: #4E6985; /* White text color for links */
     font-weight: bold;
 }
 
