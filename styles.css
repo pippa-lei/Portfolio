@@ -24,7 +24,12 @@ header {
     top: 0;
     left: 0;
     z-index: -1; /* Place the image behind the content */
-
+.header-content {
+    position: relative; /* Ensure the text is positioned relative to the header */
+    z-index: 1; /* Higher z-index to make sure the text appears above the image */
+    text-align: center; /* Center the text */
+    color: white; /* Ensure text is visible, assuming a darker image */
+}
 header h1 {
     font-family: 'Limelight', cursive;
     font-size: 48px;
