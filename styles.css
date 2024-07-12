@@ -6,7 +6,7 @@ body, html {
 }
 
 header {
-    background: url('path/to/your/gradient-image.jpg') no-repeat center center fixed;
+    background: url('images-files-website/gradient.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #445C74; /* Text color in header */
     width: 100%;
@@ -58,7 +58,7 @@ section {
 }
 
 .project {
-    background-color: #4E6985;
+    background-color: #F0EBDA;
     margin: 20px 0;
     width: 100%;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
