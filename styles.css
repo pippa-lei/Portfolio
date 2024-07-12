@@ -17,6 +17,13 @@ header {
     align-items: center;
     text-align: center;
 }
+.header-img {
+    width: 100%;
+    height: auto;
+    position: absolute; /* Position the image absolutely within the header */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place the image behind the content */
 
 header h1 {
     font-family: 'Limelight', cursive;
