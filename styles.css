@@ -6,9 +6,11 @@ body, html {
 }
 
 header {
-    position: relative; /* Establish relative positioning context */
-    width: 100%;
-    height: auto; /* Adjust height as needed */
+   background-color: var(--token-130b59bc-0aea-474d-b652-fbad3f7da895);
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header-img {
     width: 65%;
@@ -76,6 +78,7 @@ section {
 
 .project img {
     width: 45%; /* Full width of container */
+    padding: 20px 0;
     height: auto;
     border-radius: 8px;
     align-items: left;
