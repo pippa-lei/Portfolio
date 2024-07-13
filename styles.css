@@ -46,7 +46,7 @@ header h1 {
 header p{
   font-family: 'Arial', 
  cursive;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   position: relative;
   top:130px; 
@@ -71,10 +71,11 @@ header p{
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 25px 10px;
+    text-align: center;
+    padding: 10px 10px;
 }
 main {
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: left;
