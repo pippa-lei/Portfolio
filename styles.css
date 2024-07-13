@@ -77,7 +77,7 @@ section {
 }
 
 .project img {
-    width: 45%; /* Full width of container */
+    width: 25%; 
     padding: 20px 0;
     height: auto;
     border-radius: 8px;
@@ -86,7 +86,7 @@ section {
 
 .project-info {
     text-align: left;
-    color: white;
+    color: #4E6985;
 }
 
 footer {
