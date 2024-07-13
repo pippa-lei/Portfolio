@@ -35,7 +35,7 @@ header h1 {
 header p {
     font-size: 18px;
     margin: 0;
-    padding: 0 20px; /* Padding for text alignment, adjust as needed */
+    padding: 20px 250px;
 }
 
 .navbar {
